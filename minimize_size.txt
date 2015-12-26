@@ -1,0 +1,21 @@
+With MSVC add the following compiler switches to reduce the size of the 
+generated executable (I assume you build in release mode...)
+
+Compiler
+========= 
+/GS- (no buffer overrun checks)
+/O1 (optimize for size)
+/MD (do not statically link to the CRT library)            
+
+Linker
+======= 
+/entry:"main" (do not use the default CRT entry point "start")
+kernel32.lib (has to be added manually)
+/MERGE:.rdata=.text /MERGE:.data=.text (merge code and data sections; USE WITH CAUTION!)
+/ALIGN:4 or /ALIGN:8 (set alignment; default is 512! USE WITH CAUTION!)
+
+
+References
+===========
+[1] http://blogs.msdn.com/xiangfan/archive/2008/09/19/minimize-the-size-of-your-program-high-level.aspx
+[2] http://blogs.msdn.com/xiangfan/archive/2008/09/27/minimize-the-size-of-your-program-low-level.aspx

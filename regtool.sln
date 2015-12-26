@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 11
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "regtool", "regtool.vcxproj", "{53B1874B-8836-40EA-82BD-DD595D94CBD1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release (Minimum Size)|Win32 = Release (Minimum Size)|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53B1874B-8836-40EA-82BD-DD595D94CBD1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{53B1874B-8836-40EA-82BD-DD595D94CBD1}.Debug|Win32.Build.0 = Debug|Win32
+		{53B1874B-8836-40EA-82BD-DD595D94CBD1}.Release (Minimum Size)|Win32.ActiveCfg = Release (Minimum Size)|Win32
+		{53B1874B-8836-40EA-82BD-DD595D94CBD1}.Release (Minimum Size)|Win32.Build.0 = Release (Minimum Size)|Win32
+		{53B1874B-8836-40EA-82BD-DD595D94CBD1}.Release|Win32.ActiveCfg = Release|Win32
+		{53B1874B-8836-40EA-82BD-DD595D94CBD1}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
